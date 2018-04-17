@@ -1,0 +1,77 @@
+h1 {
+  margin: 0;
+  font-family:  'Asterism';
+  font-size: 5em;
+  color: #333;
+  word-spacing: 20px;
+}
+
+p {
+  font-family: 'Open Sans condensed';
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #222;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+  width: 120px;
+
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background: url('');
+  background-size: cover;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  display: table;
+}
+
+.content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.item {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  padding: 8px;
+}
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+#demo{
+  max-width:100%;
+  max-height:100%;
+}
+@media only screen and (min-width: 800px) {
+  h1 {
+    font-size: 6em;
+  }
+  p {
+    font-size: 1.6em;
+  }
+}
+@media only screen and (max-width: 320px) {
+  h1 {
+    font-size: 2em;
+  }
+  p {
+    font-size: 1.2em;
+  }
+}
