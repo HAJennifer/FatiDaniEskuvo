@@ -1,0 +1,188 @@
+body{
+  font-family: 'Didact Gothic', sans-serif;
+  text-align: center;
+  margin: 0px;
+  padding: 20px;
+  font-size:1.2vw;
+
+}
+
+header {
+  align-content:stretch;
+}
+
+body a:link, body a:visited {
+  font-size: 1.5vw;
+}
+
+body a:hover, body a:active {
+  text-decoration: none;
+}
+iframe{
+  max-width: 100%;
+  max-height: 100%;
+}
+.center{ 
+display: none;
+
+}
+#nav-bar {
+  padding: 30px;
+  opacity:0.5;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  float: middle;
+  outline-width: 0;
+  outline-style: none;
+}
+a:-webkit-any-link {
+  text-decoration: none;
+  color: black;
+}
+
+
+#header-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.nav-link {
+  padding: 1.5vw;
+}
+
+
+h2{
+  text-align: center;
+  font-size: 3vw;
+}
+.column1 {
+    float: left;
+    width: 50%;
+}
+
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row1 {
+    display: flex;
+}
+
+.column1 {
+    flex: 50%;
+}
+.contact{
+  max-height: 100%;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+.contact img{
+  max-width: 100%;
+  max-height: 100%;
+  width:25%; 
+  display: flex;
+  margin: 0 auto;
+}
+#gyik p{
+  width:33%;
+  float: middle;
+  display:inline-block;
+  position:relative;
+  
+}
+
+.column {
+        width: 100%;
+    }
+
+
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 4.5vw;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+#program{
+  text-align: center;
+}
+#program p{
+  text-align: center;
+}
+section{
+  padding-top: 200px;
+}
+
+footer {
+
+  background-image:url(akvarell1.png);
+  background-position: center bottom, bottom center;
+  background-size: 450px;
+  background-size: 14% ;
+  background-repeat: no-repeat;
+  max-width: 100%;
+}
+footer div h1 {
+  text-align: center;
+  font-size: 70%;
+  font-family: 'Parisienne', cursive;
+}
+footer div h2 {
+  text-align: center;
+  font-size:100%;
+  font-family: 'Parisienne', cursive;
+}
