@@ -6,6 +6,9 @@ body{
   font-size:1.2vw;
 
 }
+article, aside, footer, header, hgroup, main, nav, section {
+    display: inline;
+}
 
 header {
   align-content:stretch;
