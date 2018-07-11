@@ -28,7 +28,7 @@ display: none;
 }
 #nav-bar {
   padding: 30px;
-  opacity:0.5;
+  background-color: transparent;
   width: 100%;
   position: relative;
   text-align: center;
