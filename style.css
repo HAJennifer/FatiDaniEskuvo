@@ -38,6 +38,7 @@ display: none;
   float: middle;
   outline-width: 0;
   outline-style: none;
+  overflow: visible;
 }
 a:-webkit-any-link {
   text-decoration: none;
