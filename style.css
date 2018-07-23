@@ -6,6 +6,9 @@ body{
   font-size:1.2vw;
 
 }
+.btn {
+  -webkit-tap-highlight-color: transparent;
+}
 article, aside, footer, header, hgroup, main, nav, section {
     display: inline;
 }
