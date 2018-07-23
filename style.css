@@ -9,7 +9,7 @@ body{
 .btn {
   -webkit-tap-highlight-color: transparent;
 }
-article, aside, footer, header, hgroup, main, nav, section {
+article, aside, footer, header, hgroup, main, nav, section, contact {
     display: inline;
 }
 
