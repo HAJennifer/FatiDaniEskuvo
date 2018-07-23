@@ -36,6 +36,7 @@ display: none;
 
 }
 #nav-bar {
+  background-color: transparent;
   margin-bottom:-100px; 
   padding: 20px;
   width: 100%;
