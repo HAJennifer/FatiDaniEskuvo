@@ -180,7 +180,7 @@ section{
 }
 
 footer {
-
+  display:inline-block;
   background-image:url(akvarell1.png);
   background-position: center bottom, bottom center;
   background-size: 450px;
